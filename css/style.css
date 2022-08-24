@@ -22,6 +22,14 @@ nav {
   margin-top: 100px;
   box-shadow: 2px 4px 10px 3px rgb(221, 220, 220);
 }
+.logo{
+  width: 35%;
+}
+.social{
+  width: 35%;
+  display: flex;
+  justify-content: end;
+}
 .menu {
   /* border: 1px solid red ; */
   border-radius: 5px;
@@ -29,8 +37,10 @@ nav {
   padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   box-shadow: 2px 4px 5px 2px rgb(221, 220, 220);
+  width: 30%;
 }
 .menu a {
   margin-right: 10px;
@@ -39,11 +49,11 @@ nav {
   font-weight: bold;
   transition: all 1s;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .menu {
     flex-direction: column;
   }
-}
+} */
 i {
   transition: all 0.5s;
 }
