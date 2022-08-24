@@ -41,6 +41,9 @@ nav {
   flex-wrap: wrap;
   box-shadow: 2px 4px 5px 2px rgb(221, 220, 220);
   width: 30%;
+  min-width: 90px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 .menu a {
   margin-right: 10px;
