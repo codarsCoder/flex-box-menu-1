@@ -1,0 +1,58 @@
+@import url("colors.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+nav {
+  background-image: linear-gradient(
+    to right,
+    rgba(72, 166, 233, 0.555),
+    rgb(72, 167, 233)
+  );
+  width: 80%;
+  margin: auto;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  margin-top: 100px;
+  box-shadow: 2px 4px 10px 3px rgb(221, 220, 220);
+}
+.menu {
+  /* border: 1px solid red ; */
+  border-radius: 5px;
+  background-color: rgb(235, 247, 255);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 2px 4px 5px 2px rgb(221, 220, 220);
+}
+.menu a {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  transition: all 1s;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+i {
+  transition: all 0.5s;
+}
+i:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+a:hover {
+  color: white;
+  background-color: rgb(96, 126, 146);
+  font-size: 1.2rem;
+  padding: 5px;
+}
