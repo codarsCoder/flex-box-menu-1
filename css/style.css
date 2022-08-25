@@ -12,6 +12,7 @@ nav {
     rgb(72, 167, 233)
   );
   width: 80%;
+  min-width:300px;
   margin: auto;
   height: 30px;
   display: flex;
